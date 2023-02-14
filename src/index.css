@@ -40,6 +40,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#3863ce;
 }
 
 code {
@@ -49,7 +50,7 @@ code {
 
 ::selection{
   color: rgb(0, 0, 0);
-  background: rgb(190, 190, 190);
+  background: rgb(63, 58, 135);
 
 }
 
@@ -57,7 +58,7 @@ code {
  { /* Code for Firefox */
 
   color: rgb(0, 0, 0);
-  background: rgb(190, 190, 190);
+  background: rgb(63, 58, 135);
 }
 
 h1{
