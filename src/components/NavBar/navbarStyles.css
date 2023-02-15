@@ -51,7 +51,8 @@
         flex-direction: column;
         justify-content: start;
         top: 90px;
-        right: -100%;
+        right: 0%;
+        opacity: 0;
         width: 50%;
         height: 100vh;
         transition: 0.4s;
@@ -62,6 +63,7 @@
     }
 
     .nav-menu.active {
+        opacity: 1;
         right: 0;
     }
 
