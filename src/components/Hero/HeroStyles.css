@@ -29,6 +29,7 @@
 }
 
 .hero img{
+    max-width: 80%;
     animation: increase-width 2s forwards;
     margin: auto;
     background-color: #ffb443;
@@ -38,23 +39,14 @@
     border-radius: 9px;
 }
 
-.hero img:hover {
-    max-width: 68%;
-  }
-
-@keyframes increase-width {
-    from {
-      max-width: 85%;
-    }
-    to {
-      max-width: 95%;
-    }
-  }
-
 @media screen and (max-width: 940px)
 {
     .hero .container{
         grid-template-columns: 1fr;
         margin: 1rem;
+    }
+
+    .hero img{
+        max-width: 50%;
     }
 }

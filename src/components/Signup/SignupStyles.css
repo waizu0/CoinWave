@@ -11,23 +11,22 @@
 }
 
 .signup img {
-    width: 400px;
     -webkit-box-shadow: 4px 4px 0px 15px #000000; 
     box-shadow: 2px 3px 0px 5px #000000;
-    border-radius: 9px;
-    pointer-events: none;
+    width: 390px;
 }
-
 
 .signup .right p {
-    margin: 1rem 0;
-    text-align: left;
+    margin: 2rem 0;
 }
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:940px) {
     .signup .container {
         grid-template-columns: 1fr;
     }
 
-
+    .signup img{
+        
+        width: 300px;
+    }
 }
