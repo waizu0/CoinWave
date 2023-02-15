@@ -26,7 +26,7 @@ const Featured = () => {
             <div className='container'>
                 <div className='left'>
                     <h2>Explore trending Cryptos! Like {data[0].name} and {data[1].name}</h2>
-                    <p>Explore all availables Cryptocurrencies!</p>
+                    <p>Explore all Cryptos!</p>
                     <button className='btn'>See More Cryptos</button>
                 </div>
 

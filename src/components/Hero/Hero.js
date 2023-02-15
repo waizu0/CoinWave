@@ -12,7 +12,7 @@ function Hero() {
                 <h1>For every type of investor!</h1>
                 <p>Trade and Store a variety of cryptos.</p>
                 <div className='input-container'>
-                    <input type="email" placeholder='Enter your email address'/>
+                    <input type="email" placeholder='Enter your e-mail'/>
                     <button className='btn'>Read More</button>
                 </div>
             </div>
