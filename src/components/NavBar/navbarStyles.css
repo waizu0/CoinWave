@@ -1,7 +1,8 @@
 .header {
     width: 100%;
     height: 90px;
-    background: #456cce;
+    border-bottom: 4px solid #000000;
+    background: #fff;
     position: sticky;
     top: 0;
     left: 0;
@@ -31,6 +32,7 @@
 .nav-menu a {
     font-size: 1rem;
     font-weight: 600;
+    color: #333;
 }
 
 .hamburger {
@@ -55,12 +57,12 @@
         transition: 0.4s;
         z-index: 2;
         background: #fff;
+        border-left: 4px solid black;
+
     }
 
     .nav-menu.active {
         right: 0;
-        background: #456cce;
-
     }
 
     .nav-menu li {

@@ -4,7 +4,7 @@
     margin: 4rem auto;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 4rem;
 }
 
 .hero.left{
@@ -29,12 +29,27 @@
 }
 
 .hero img{
-    max-width: 60%;
+    animation: increase-width 2s forwards;
     margin: auto;
-    border: .45rem dashed rgb(0, 0, 0);
     background-color: #ffb443;
     pointer-events: none;
+    -webkit-box-shadow: 5px 5px 0px 16px #000000; 
+    box-shadow: 3px 6px 0px 8px #000000;
+    border-radius: 9px;
 }
+
+.hero img:hover {
+    max-width: 68%;
+  }
+
+@keyframes increase-width {
+    from {
+      max-width: 85%;
+    }
+    to {
+      max-width: 95%;
+    }
+  }
 
 @media screen and (max-width: 940px)
 {

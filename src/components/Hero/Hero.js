@@ -10,7 +10,7 @@ function Hero() {
             <div className="left">
                 <p>Trade Cryptocurrency anytime with your retirement account</p>
                 <h1>Use Your IRA to Invest in Digital Assets</h1>
-                <p>Trade and Store a variety of Cryptocurrencies</p>
+                <p>Trade and Store a variety of Cryptos.</p>
                 <div className='input-container'>
                     <input type="email" placeholder='Enter your email address'/>
                     <button className='btn'>Read More</button>
