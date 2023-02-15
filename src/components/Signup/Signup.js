@@ -18,7 +18,7 @@ const Signup = () => {
                     <p>Digital assets have revolutionized the way we invest and grow our wealth. Explore the world of digital assets and earn annual rewards of up to 12% on a diverse range of over 30 cryptos.</p>
                     <div className='input-container'>
                         <input type='email' placeholder='Enter your email' />
-                        <button className='btn'>Learn More</button>
+                        <button className='btn'>Read More</button>
                     </div>
                 </div>
 
